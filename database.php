@@ -131,13 +131,3 @@ class Database
         $this->con = null;
     }
 }
-// $db_name = "mysql:host=localhost;dbname=crud_html";
-// $con  = new PDO($db_name, "root", "");
-
-// $query = "SELECT * FROM student_info JOIN class_info WHERE student_info.sclass = class_info.cid";
-
-// $res = $con->query($query);
-
-// echo '<pre>';
-// print_r($res->fetchAll(PDO::FETCH_ASSOC));
-// echo '</pre>';
